@@ -29,7 +29,22 @@ nav{
 .logo{
     width: 80px;
     height: 80px;
+    border-radius: 50%;
 }
+
+.change-content::after {
+    content: 'Web Developer';
+    animation: changetext 10s infinite linear;
+    font-size: 3rem;
+  }
+  
+  @keyframes changetext {
+    30% { content:"Front-End Developer";color: rgb(35, 83, 207); }
+    40% { content:"Reactjs Developer";color: rgba(6, 236, 121, 0.979); }
+    60% { content:"Web Developer";color: rgb(28, 2, 21); }
+    
+  }
+
 nav ul li {
     display: inline-block;
     list-style: none;
@@ -39,6 +54,7 @@ nav ul li a{
     color: #fff;
     text-decoration: none;
     font-size: 18px;
+    cursor: pointer;
     position: relative;
 }
 nav ul li a::after{
@@ -113,12 +129,15 @@ nav ul li a:hover::after{
 .skill-container img{
     width: 150px;
     height: 150px;
-    padding: 10px;
+    padding: 20px;
     border-radius: 2px;
-    transition: transform 0.5s;
+    transition: all 0.5s;
 }
 .skill-container img:hover{
     transform: scale(1.1);
+    padding: 20px;
+    background-color:#fff;
+    border-radius: 50px;
 }
 
 
@@ -235,8 +254,8 @@ nav ul li a:hover::after{
     transition: background 0.5s;
 }
 .btn:hover{
-    background: #ff004f;
-    color: #fff;
+    background: #fbf8f9;
+    color: black;
 }
 /* ------------------------------------contact------------------------------- */
 .contact-left{
@@ -281,8 +300,12 @@ nav ul li a:hover::after{
 .btn.btn2{
     display: inline-block;
     background: #ff004f;
+    transition: background 0.5s;
 }
-
+.btn.btn2:hover{
+    background: white;
+    color: #0e0609;
+}
 .contact-right form{
     width: 100%;
 }
@@ -385,4 +408,17 @@ nav .fas{
     font-size: 20px;
     font-weight: 500;
 }
-    
+@media (max-width:320px){
+    .layer a{
+        margin-top: 0px;
+        color: #ff004f;
+        text-decoration: none;
+        font-size: 10px;
+        line-height: 30px;
+        background: #fff;
+        width: 30px;
+        height: 30px;
+        border-radius: 50%;
+        text-align: center;
+    }
+} 

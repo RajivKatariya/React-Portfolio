@@ -1,27 +1,33 @@
 import React from 'react'
 import'./Header.css';
-import { Link } from 'react-scroll'
+
 
 export default function Contact() {
   return (
+<>
     <div id="contact">
       <div className="container">
         <div className="row">
           <div className="contact-left">
             <h1 className="sub-title">Contact Me</h1>
             <i className="fas fa-paper-plane"></i
-            ><Link to="mailto:rajivkatariya098@gmail.com"
-              >Rajivkatariya098@gmail.com</Link
+            ><a href="mailto:rajivkatariya098@gmail.com"
+              >Rajivkatariya098@gmail.com</a
             ><br />
             <i className="fas fa-phone-square-alt"></i
-            ><Link to="tel:+91 7895197221">+91 7895197221</Link>
+            ><a  href="tel:+91 7895197221">+91 7895197221</a>
             <div className="social-icons">
-              <Link to=""><i className="fab fa-facebook"></i></Link>
-              <Link to=""><i className="fab fa-skype"></i></Link>
-              <Link to=""><i className="fab fa-whatsapp"></i></Link>
-              <Link to=""><i className="fab fa-linkedin"></i></Link>
+              <a  href="https://github.com/RajivKatariya"
+                ><i className="fab fa-github-alt"></i
+              ></a>
+              <a href="https://www.instagram.com/rajiv_1katariya/"
+                ><i className="fab fa-instagram"></i
+              ></a>
+              <a  href="https://www.linkedin.com/in/rajiv-kumar-58221a212/"
+                ><i className="fab fa-linkedin"></i
+              ></a>
             </div>
-            <Link to="Resume.pdf" download className="btn btn2">Download CV</Link>
+            <a href='Resume.pdf' download className="btn btn2">Download CV</a>
           </div>
           <div className="contact-right">
             <form name="submit-to-google-sheet">
@@ -52,5 +58,7 @@ export default function Contact() {
         <p>Copyright © Rajiv Kumar. Made with by Rajiv Kumar</p>
       </div>
     </div>
+    </>
+    
     )
 }
