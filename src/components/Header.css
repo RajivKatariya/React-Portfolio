@@ -221,6 +221,7 @@ nav ul li a:hover::after{
     transition: height 0.5s; 
 }
 .layer h3{
+    margin-top: 10px;
     font-weight: 500;
     margin-bottom: 20px;
 }
@@ -251,6 +252,7 @@ nav ul li a:hover::after{
     border-radius: 6px;
     text-decoration: none;
     color: #fff;
+    background-color: #ff004f;
     transition: background 0.5s;
 }
 .btn:hover{

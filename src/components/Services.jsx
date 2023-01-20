@@ -1,5 +1,4 @@
 import React from 'react'
-import { Link } from 'react-scroll';
 import './Header.css';
 import works1 from '../image/1.jpg';
 import works2 from '../image/2.jpg';
@@ -20,7 +19,7 @@ export default function Services() {
               HTML, CSS, Javascript, ReactJs. I have also good grasp on Node and
               NoSQL(MongoDb)
             </p>
-            <Link to="">Learn More</Link>
+            <a href="">Learn More</a>
           </div>
         </div>
       </div>
@@ -37,38 +36,34 @@ export default function Services() {
             <div className="layer">
               <h3>Web Development</h3>
               <p>
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                Eveniet quam facilis adipisci dolorum quibusdam aliquam nam
-                fuga, atque deleniti obcaecati repudiandae dignissimos dolorem,
-                enim autem vero odit, nobis beatae et!
+                I have done This Website.This website maintain the automation parts for the automation companies.
+                I used HTML5,CSS,JAVASCRIPT,BOOTSTRAP.
               </p>
-              <a href=""><i className="fas fa-external-link-alt"></i></a>
+              <a href="https://katariyaautomation.co.in/"><i className="fas fa-external-link-alt"></i></a>
             </div>
           </div>
           <div className="work">
             <img src={works2} />
             <div className="layer">
-              <h3>Web Development</h3>
+              <h3>Website Hosting</h3>
               <p>
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                Eveniet quam facilis adipisci dolorum quibusdam aliquam nam
-                fuga, atque deleniti obcaecati repudiandae dignissimos dolorem,
-                enim autem vero odit, nobis beatae et!
+              I have done This Website.This website maintain the automation
+                parts for the automation companies. I Hosted this website from to
+                Hostinger.
               </p>
-              <a href=""><i className="fas fa-external-link-alt"></i></a>
+              <a href="https://katariyaautomation.co.in/"><i className="fas fa-external-link-alt"></i></a>
             </div>
           </div>
           <div className="work">
             <img src={works3} />
             <div className="layer">
-              <h3>Web Development</h3>
+              <h3>Website Mangement</h3>
               <p>
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                Eveniet quam facilis adipisci dolorum quibusdam aliquam nam
-                fuga, atque deleniti obcaecati repudiandae dignissimos dolorem,
-                enim autem vero odit, nobis beatae et!
+              I have done This Website.This website maintain the automation
+                parts for the automation companies. I used
+                HTML5,CSS,JAVASCRIPT,BOOTSTRAP.
               </p>
-              <a href=""><i className="fas fa-external-link-alt"></i></a>
+              <a href="https://katariyaautomation.co.in/"><i className="fas fa-external-link-alt"></i></a>
             </div>
           </div>
         </div>

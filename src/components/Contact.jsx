@@ -1,5 +1,6 @@
 import React from 'react'
 import'./Header.css';
+import ResumePdf from '../image/Resume.pdf';
 
 
 export default function Contact() {
@@ -27,7 +28,7 @@ export default function Contact() {
                 ><i className="fab fa-linkedin"></i
               ></a>
             </div>
-            <a href='Resume.pdf' download className="btn btn2">Download CV</a>
+            <a href={ResumePdf} download='Resume' className="btn btn2">Download CV</a>
           </div>
           <div className="contact-right">
             <form name="submit-to-google-sheet">
