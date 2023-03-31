@@ -30,7 +30,7 @@ const Header=()=> {
         </nav>
         <div className="header-text">
         <p><b className="change-content"></b></p>
-          <h1>Hi, I'm <span>Rajiv</span>Kumar</h1>
+          <h1>Hi, I'm <span>Rajiv</span>Kumar kumar</h1>
         </div>
       </div>
     </div>
