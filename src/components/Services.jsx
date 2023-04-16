@@ -1,7 +1,7 @@
 import React from 'react'
 import './Header.css';
-import works1 from '../image/1.jpg';
-import works2 from '../image/2.jpg';
+import works1 from '../image/Katariya Automation.png';
+import works2 from '../image/MyNetflix.png';
 import works3 from '../image/3.jpg';
 
 export default function Services() {
@@ -51,7 +51,7 @@ export default function Services() {
                 parts for the automation companies. I Hosted this website from to
                 Hostinger.
               </p>
-              <a href="https://katariyaautomation.co.in/"><i className="fas fa-external-link-alt"></i></a>
+              <a href="https://katariyanetflix.netlify.app/"><i className="fas fa-external-link-alt"></i></a>
             </div>
           </div>
           <div className="work">
