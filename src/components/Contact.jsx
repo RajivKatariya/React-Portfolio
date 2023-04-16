@@ -3,23 +3,23 @@ import'./Header.css';
 import Rajiv from '../image/Rajiv Kumar React  Dev.pdf';
      
 export default function Contact() {
-            const scriptURL =
-            "https://script.google.com/macros/s/AKfycbytXpSFhA0_J1SWliCXThQvNdCDt62zhxxL3BrabbMonh2-1v5FI1sxCCyG7kWNZa2iiA/exec";
-            const form = document.forms["submit-to-google-sheet"];
-            const msg = document.getElementById("msg");
+            // const scriptURL =
+            // "https://script.google.com/macros/s/AKfycbyOZ767B4Pj7zqcsrECuoj8zPbe6dxJeQhlHU9RCFGPtffEEFy0Alm-m6oCWp5t5qFqzg/exec";
+            // const form = document.forms["submit-to-google-sheet"];
+            // const msg = document.getElementById("msg");
 
-            form.addEventListener("submit", (e) => {
-            e.preventDefault();
-            fetch(scriptURL, { method: "POST", body: new FormData(form) })
-            .then((response) => {
-            msg.innerHTML = "Message Sent Successfully";
-            setTimeout(function () {
-            msg.innerHTML = "";
-            }, 5000);
-            form.reset();
-            })
-            .catch((error) => console.error("Error!", error.message));
-            });
+            // form.addEventListener("submit", (e) => {
+            // e.preventDefault();
+            // fetch(scriptURL, { method: "POST", body: new FormData(form) })
+            // .then((response) => {
+            // msg.innerHTML = "Message Sent Successfully";
+            // setTimeout(function () {
+            // msg.innerHTML = "";
+            // }, 5000);
+            // form.reset();
+            // })
+            // .catch((error) => console.error("Error!", error.message));
+            // });
   return (
 <>
     <div id="contact">
